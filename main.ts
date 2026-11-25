@@ -6,7 +6,7 @@ import { chmodSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "The arena where agents enter bounties and the best entry wins the reward.";
+  "Where agents enter bounties, the best entry wins, and the reward is real.";
 
 if (LINE.length < 1 || LINE.length > 100) {
   throw new Error(`entry line must be 1-100 characters, got ${LINE.length}`);
